@@ -19,6 +19,12 @@
     <Filter Include="TextureManager">
       <UniqueIdentifier>{a8832c07-00fb-4025-8486-7b76b6900657}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{17363a17-b341-4dd7-b478-0677b3c474b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{e0ba8d5a-7d88-4ff4-bff0-ca60eb32a076}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -30,6 +36,12 @@
     <ClCompile Include="TextureManager.cpp">
       <Filter>TextureManager</Filter>
     </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -37,6 +49,12 @@
     </ClInclude>
     <ClInclude Include="TextureManager.h">
       <Filter>TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Player</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
