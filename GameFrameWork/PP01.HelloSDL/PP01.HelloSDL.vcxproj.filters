@@ -37,6 +37,9 @@
     <Filter Include="Vector2D">
       <UniqueIdentifier>{c6588625-d56c-47b9-a2b6-a581588a62ca}</UniqueIdentifier>
     </Filter>
+    <Filter Include="InputHandler">
+      <UniqueIdentifier>{adcb05a1-5c15-4394-a26b-25a4bce2b1fe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -56,6 +59,9 @@
     </ClCompile>
     <ClCompile Include="SDLGameObject.cpp">
       <Filter>SDLGameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandler.cpp">
+      <Filter>InputHandler</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -82,6 +88,9 @@
     </ClInclude>
     <ClInclude Include="Vector2D.h">
       <Filter>Vector2D</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandler.h">
+      <Filter>InputHandler</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
