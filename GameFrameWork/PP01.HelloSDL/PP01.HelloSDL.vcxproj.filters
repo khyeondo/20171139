@@ -28,6 +28,12 @@
     <Filter Include="Enemy">
       <UniqueIdentifier>{6539cac3-405a-4875-a5b9-ef37199d7d6b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="LoaderParams">
+      <UniqueIdentifier>{44d77ccc-c8b4-48bf-885d-1eab194e0ebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDLGameObject">
+      <UniqueIdentifier>{c66dc7df-9bbe-446f-961a-42d6c1b7d879}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -39,14 +45,14 @@
     <ClCompile Include="TextureManager.cpp">
       <Filter>TextureManager</Filter>
     </ClCompile>
-    <ClCompile Include="GameObject.cpp">
-      <Filter>GameObject</Filter>
-    </ClCompile>
     <ClCompile Include="Player.cpp">
       <Filter>Player</Filter>
     </ClCompile>
     <ClCompile Include="Enemy.cpp">
       <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="SDLGameObject.cpp">
+      <Filter>SDLGameObject</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -64,6 +70,12 @@
     </ClInclude>
     <ClInclude Include="Enemy.h">
       <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="LoaderParams.h">
+      <Filter>LoaderParams</Filter>
+    </ClInclude>
+    <ClInclude Include="SDLGameObject.h">
+      <Filter>SDLGameObject</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
