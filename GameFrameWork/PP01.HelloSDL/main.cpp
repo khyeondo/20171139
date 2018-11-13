@@ -5,6 +5,7 @@
 bool init(const char* title, int xpos, int ypos,
 	int width, int height, int flags);
 void render();
+
 bool g_bRunning = true;
 
 SDL_Window* g_pWindow = 0;
