@@ -5,6 +5,21 @@
 class TextureManager
 {
 private:
+	TextureManager() {}
+	static TextureManager* s_pInstance;
+public:
+	// 함수 추가
+	static TextureManager* Instance()
+	{
+		if (s_pInstance == 0)
+		{
+			s_pInstance = new TextureManager();
+			return s_pInstance;
+		}
+		return s_pInstance;
+	}
+
+private:
 	std::map<std::string, SDL_Texture*> m_textureMap;
 public:
 	bool load(std::string fileName, std::string id,
@@ -20,3 +35,4 @@ public:
 		SDL_RendererFlip flip = SDL_FLIP_NONE);
 };
 
+typedef TextureManager TheTextureManager;
