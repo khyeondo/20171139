@@ -34,6 +34,9 @@
     <Filter Include="SDLGameObject">
       <UniqueIdentifier>{c66dc7df-9bbe-446f-961a-42d6c1b7d879}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Vector2D">
+      <UniqueIdentifier>{c6588625-d56c-47b9-a2b6-a581588a62ca}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -76,6 +79,9 @@
     </ClInclude>
     <ClInclude Include="SDLGameObject.h">
       <Filter>SDLGameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Vector2D</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
